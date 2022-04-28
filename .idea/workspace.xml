@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09647d54-6727-48f0-aa9b-7733815c2956" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ProgramationScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/MyFirstProjects.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/org/example/AppTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Vehicule.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ProgramationScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ProgramationScala.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +86,18 @@
       <option name="presentableId" value="Default" />
       <updated>1651065927293</updated>
     </task>
+    <task id="LOCAL-00001" summary="Scala premiere session">
+      <created>1651131590759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651131590759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Scala premiere session" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scala premiere session" />
   </component>
 </project>
