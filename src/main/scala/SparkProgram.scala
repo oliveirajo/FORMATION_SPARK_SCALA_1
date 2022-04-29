@@ -1,5 +1,5 @@
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{SaveMode, SparkSession}
 import org.apache.spark.serializer.KryoRegistrator
 import org.apache.spark.sql.functions.{col, concat, lit, when}
 import org.apache.spark.sql.types.{DoubleType, IntegerType, LongType, StringType, StructField, StructType, TimestampType}
@@ -144,6 +144,21 @@ object SparkProgram extends App{
   val df_sql = ss.sql("SELECT * FROM table_detailsCommande dc INNER JOIN table_commandes tc ON dc.orderid = tc.orderid LIMIT 15")
   df_sql.show()
   df_sql.explain()
+
+  //persistez en parquet et en json
+  /*
+  df_sql.write
+    .mode(SaveMode.Overwrite)
+    .format("json")
+    .option("header","true")
+    .save("C:\\Users\\PLB\\Downloads\\2022-04-21-DOC_data\\data\\json_exercise")
+  */
+  df_sql.write
+    .mode(SaveMode.Overwrite)
+    .format("parquet")
+    .option("header","true")
+    .save("C:\\Users\\PLB\\Downloads\\2022-04-21-DOC_data\\data\\parquet_exercise")
+
 
 
 
